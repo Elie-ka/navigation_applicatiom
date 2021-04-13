@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">navigationGodson</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textbtn1">Navigate To Destination</string>
+    <string name="textbtn2">Navigate With Destination</string>
+    <string name="txtHome">Home</string>
+    <string name="txtSecond">Second Page</string>
+    <string name="textbtn3">Text Navigation</string>
+    <string name="txtSetting">Seting</string>
+    <string name="comment">write something</string>
+    <string name="textNothing" />
+    <string name="btndeep">Deep Button</string>
+    <string name="settingMenu">Settings</string>
+    <string name="deepText">Deep Link</string>
+    <string name="homeText">Home</string>
+</resources>

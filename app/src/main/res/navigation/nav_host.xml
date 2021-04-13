@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/homeMainFragment">
+    <fragment
+        android:id="@+id/homeMainFragment"
+        android:name="com.example.navigationgodson.files.HomeMainFragment"
+        android:label="fragment_home_main"
+        tools:layout="@layout/fragment_home_main" >
+        <action
+            android:id="@+id/action_homeMainFragment_to_secondPage"
+            app:destination="@id/secondPage"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondPage"
+        android:name="com.example.navigationgodson.files.SecondPage"
+        android:label="secondPage"
+        tools:layout="@layout/fragment_second_page" />
+    <fragment
+        android:id="@+id/settingsIDD"
+        android:name="com.example.navigationgodson.files.Settings"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/deep_Link"
+        android:name="com.example.navigationgodson.files.Deep_Link"
+        android:label="Deep Link"
+        tools:layout="@layout/fragment_deep__link" />
+</navigation>

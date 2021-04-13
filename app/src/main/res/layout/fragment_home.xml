@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".files.Home">
+
+
+        <Button
+            android:id="@+id/btnAction1"
+            style="@style/styleBtn"
+            android:layout_width="321dp"
+            android:layout_height="57dp"
+            android:layout_marginBottom="64dp"
+            android:text="@string/textbtn1"
+            android:textStyle="normal|bold"
+            app:backgroundTint="@color/backgroundbtn"
+            app:layout_constraintBottom_toTopOf="@+id/btnAction2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnAction2"
+            style="@style/styleBtn"
+            android:layout_width="321dp"
+            android:layout_height="57dp"
+            android:layout_marginBottom="232dp"
+            android:text="@string/textbtn2"
+            android:textStyle="normal|bold"
+            app:backgroundTint="@color/backgroundbtn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtHome"
+            android:layout_width="158dp"
+            android:layout_height="48dp"
+            android:text="@string/txtHome"
+            app:layout_constraintBottom_toTopOf="@+id/btnAction1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.783"
+            style="@style/textStyle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

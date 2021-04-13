@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="styleBtn">
+        <item name="android:background">@color/backgroundbtn</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="textStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/dimtxt</item>
+        <item name="android:textStyle">normal|bold</item>
+    </style>
+</resources>
